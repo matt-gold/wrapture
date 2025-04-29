@@ -19,12 +19,12 @@ But unlike libraries that hardcode state or structure, Wrapture is fully configu
 
 Wrapture is perfect for async data (tracking loading, success, error, etc.), but it’s just as useful for:
 
-Function calls that carry execution state or analytics context
+ - Function calls that carry execution state or analytics context
 
-Forms that track validity, dirty fields, and touched state
+- Forms that track validity, dirty fields, and touched state
 
-Derived or computed values from multiple sources
+ - Derived or computed values from multiple sources
 
-Domain-specific data types with logic and state embedded
+ - Domain-specific data types with logic and state embedded
 
 If you're familiar with functional programming, you'll recognize patterns like monads or combinators - but you don’t need to know those terms to use Wrapture. We’ve taken the underlying power and made it practical, typed, and ready for everyday TypeScript code.
