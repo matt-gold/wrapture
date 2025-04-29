@@ -5,16 +5,17 @@ Wrapture is a tiny utility for building your own rich, self-aware data wrappers 
 
 But unlike libraries that hardcode state or structure, Wrapture is fully configurable. You define what the wrapper should track - whether that’s loading state, history, validation errors, function execution status, or anything else. Think of it as a toolkit for making your own smart data types - not just using someone else’s.
 
-🔧 Core features
-🧠 Custom wrappers for any kind of data or function - with state, metadata, or other context
+## 🔧 Core features
 
-🎛️ Configurable behaviors — define what’s tracked and how it's transformed
+ - 🧠 Custom wrappers for any kind of data or function - with state, metadata, or other context
 
-🔄 Built-in composition/mapping utilities - combine multiple wrappers into one, safely and cleanly
+ - 🎛️ Configurable behaviors — define what’s tracked and how it's transformed
 
-🧵 Support for wrapped functions with any number of arguments - not just values, but callable logic with context
+ - 🔄 Built-in composition/mapping utilities - combine multiple wrappers into one, safely and cleanly
 
-🪞 Proxy or standard mode - choose how your wrapper exposes the underlying value
+ - 🧵 Support for wrapped functions with any number of arguments - not just values, but callable logic with context
+
+ - 🪞 Proxy or standard mode - choose how your wrapper exposes the underlying value
 
 Wrapture is perfect for async data (tracking loading, success, error, etc.), but it’s just as useful for:
 
